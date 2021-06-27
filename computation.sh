@@ -1,2 +1,2 @@
-echo "values of dictory " ${!result[@]}
-echo "values from dictory into array " ${result[@]}
+arrAsc=($(for i in ${result[@]}; do echo $i;done | sort ))
+
