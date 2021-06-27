@@ -1,7 +1,2 @@
-#!/bin/bash -x
-
-read -p "Enter First Num : " a
-read -p "Enter Second Num : " b
-read -p "Enter Third Num : " c
-
-echo $a,$b,$c
+echo "values of dictory " ${!result[@]}
+echo "values from dictory into array " ${result[@]}
