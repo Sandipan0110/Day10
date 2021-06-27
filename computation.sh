@@ -1,6 +1,7 @@
-declare -A result
-result[1]=$UC2
-result[2]=$UC3
-result[3]=$UC4
-result[4]=$UC5
+#!/bin/bash -x
 
+read -p "Enter First Num : " a
+read -p "Enter Second Num : " b
+read -p "Enter Third Num : " c
+
+echo $a,$b,$c
