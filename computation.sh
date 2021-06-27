@@ -1,9 +1,6 @@
-read -p "Enter First Num : " a
-read -p "Enter Second Num : " b
-read -p "Enter Third Num : " c
-
-UC1=$((a%b+c))
-
-echo "$UC1"
-
+declare -A result
+result[1]=$UC2
+result[2]=$UC3
+result[3]=$UC4
+result[4]=$UC5
 
